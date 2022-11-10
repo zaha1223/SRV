@@ -147,19 +147,7 @@ body {
   line-height: 25px;
   color: rgb(236, 103, 236);
 }
-@media screen and (max-width: 960px) {
-  .navbar {
-    display: none;
-  }
-  .header__menu {
-    display: block;
-    position: absolute;
-    right: 30px;
-  }
-  .open {
-    display: block;
-  }
-}
+
 /* Hero section*/
 
 .hero {
@@ -276,4 +264,23 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: x-large;
   padding: 0 50px;
+}
+@media screen and (max-width: 960px) {
+  .navbar {
+    display: none;
+  }
+  .header__menu {
+    display: block;
+    position: absolute;
+    right: 30px;
+  }
+  .open {
+    display: block;
+  }
+  .hero__link {
+    margin-left: 60px;
+  }
+  .school__text {
+    padding: 0;
+  }
 }
